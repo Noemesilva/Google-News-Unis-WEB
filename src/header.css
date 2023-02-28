@@ -108,19 +108,17 @@ img {
 
 .fa-search {
   position: absolute;
-  left: 10px;
-  top: 50%;
+  padding-top: 35px;
+  padding-left: 10px;
   transform: translateY(-50%);
   color: #928e8e;
 }
 
 .dropdown button {
-  position: absolute;
   height: 100%;
-  padding: 0 0px;
-  left: 280px;
-  bottom: 15px;
-  background-color: #ccc;
+  padding-right: 10px;
+  padding-top: 15px;
+  background-color: #ebebec;
   border: none;
 }
 
@@ -139,8 +137,9 @@ img {
 }
 
 .pesquisa {
-  position: relative;
+  display: flex;
   margin-left: 30px;
+  height: 35px;
   width: 600px;
 }
 
