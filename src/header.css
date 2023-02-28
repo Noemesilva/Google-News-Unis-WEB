@@ -2,20 +2,12 @@
   display: block;
   justify-content: start !important;
   padding: 10px 30px !important;
+  border-bottom: 5px solid rgba(169, 169, 169, 0.274);
 }
 
 .navbar-nav {
   line-height: 3rem;
   margin: 15px;
-}
-
-.navbar-toggler::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  border-bottom: 5px solid rgba(169, 169, 169, 0.274);
 }
 
 .navbar-toggler-icon {
@@ -69,6 +61,7 @@ a.nav-link:active {
 .logo-brand {
   display: flex;
   align-items: center;
+  width: 80vw;
 }
 
 .noticias {
@@ -93,14 +86,16 @@ img {
 
 .google-noticias {
   height: 55px;
-  
+
 }
+
 /*.pesquisa {
   position: relative;
   margin-left: 50px;
 }*/
 .pesquisa input[type="text"] {
-  padding-left: 40px; /* ajuste a quantidade de acordo com sua preferência */
+  padding-left: 40px;
+  /* ajuste a quantidade de acordo com sua preferência */
 }
 
 .pesquisa input[type="text"]::placeholder {
@@ -118,52 +113,41 @@ img {
   transform: translateY(-50%);
   color: #928e8e;
 }
-.pesquisa button {
-  position: absolute;
-    bottom: 30px;
-    left: 670px;
-    height: 100%;
-    padding: 0 10px;
-    background-color: #ccc;
-    border: none;
-}
 
+.dropdown button {
+  position: absolute;
+  height: 100%;
+  padding: 0 0px;
+  left: 280px;
+  bottom: 15px;
+  background-color: #ccc;
+  border: none;
+}
 
 .pesquisa button:hover {
   background-color: #aaa;
 }
-
 
 /*.pesquisa {
   position: relative;
 }*/
 
 .pesquisa input[type="text"] {
-  padding-right:0px; /* ajuste a quantidade de acordo com sua preferência */
-  
+  padding-right: 0px;
+  /* ajuste a quantidade de acordo com sua preferência */
+
 }
-
-
 
 .pesquisa {
   position: relative;
   margin-left: 30px;
-}
-
-
-
-.dropdown {
-  position: absolute;
-  top: 10px;
-  right: 0px;
-  left: 4px;
-  width: 150px;
+  width: 600px;
 }
 
 .dropdown-toggle {
   display: flex;
-  
-  
+
+
 }
 
 .dropdown-toggle:focus {
@@ -249,26 +233,19 @@ img {
   color: #16181b;
   background-color: #f8f9fa;
 }
-
-
-
-
-
-
-
-
 
 input {
 
   display: flex !important;
   width: 100%;
-  
+
   border: none;
- 
+
   border-radius: 2px 2px 2px 2px;
   outline: none;
   background-color: rgba(221, 221, 221, 0.5);
 }
+
 /*
 .search-btn {
   position: absolute;
